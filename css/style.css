@@ -1,0 +1,26 @@
+.clear {
+    clear: both;
+}
+/* header styling */
+.logo {
+    float: left;
+    
+}
+.navigation {
+    float: left;
+    padding: 28px 0 0 108px;
+}
+.nav-li {
+    float: left;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #181C28;
+}
+.header-wrapper {
+    padding: 25px 0 25px 140px;
+    position: fixed;
+}
+body {
+    height: 2000px;
+}
