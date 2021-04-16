@@ -20,7 +20,13 @@
 .header-wrapper {
     padding: 25px 0 25px 140px;
     position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 body {
     height: 2000px;
+}
+.top-banner {
+    margin-top: 126px;
 }
