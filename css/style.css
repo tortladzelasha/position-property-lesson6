@@ -23,10 +23,36 @@
     top: 0;
     width: 100%;
     background-color: white;
+    z-index: 2;
 }
 body {
     height: 2000px;
 }
-.top-banner {
+/* banner styling */
+.banner {
     margin-top: 126px;
+    z-index: 1;
+}
+.top-banner {
+    position: relative;
+    width: 1600px;
+}
+.banner-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 111px;
+    left: 665px;
+}
+.banner-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 147px;
+    left: 697px;
+}
+.banner-image {
+    width: 100%;
 }
